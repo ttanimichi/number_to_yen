@@ -10,3 +10,5 @@ module NumberToYen
     Converter.new(number, options).convert
   end
 end
+
+require 'number_to_yen/railtie' if defined?(Rails)
