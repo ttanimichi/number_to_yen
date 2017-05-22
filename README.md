@@ -58,19 +58,7 @@ gem 'number_to_yen', require: 'number_to_yen/core_ext'
 1234567890.to_yen # => "12億3,456万7,890円"
 ```
 
-より簡潔に書けて便利ですがグローバル汚染でもあるため、helper の `number_to_yen` とコア拡張の `to_yen` どちらを使うかは個別に判断してください。
-
-## `number_to_ja` と `Numeric#to_ja`
-
-TODO: 記載する
-
-## gem 'draper' と併用する場合
-
-TODO: 記載する
-
-## gem 'money' と併用する場合
-
-TODO: 記載する
+より簡潔に書けて便利ですが、helper の `number_to_yen` とコア拡張の `to_yen` どちらを使うかは個別に判断してください。
 
 ## Development
 
