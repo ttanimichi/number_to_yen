@@ -31,7 +31,7 @@ module NumberToYen
     private
 
     def units
-      [
+      @units ||= [
         { value: basic_unit ** 4, name: '京' },
         { value: basic_unit ** 3, name: '兆' },
         { value: basic_unit ** 2, name: '億' },
