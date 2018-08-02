@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'number_to_yen'
   spec.version       = NumberToYen::VERSION
   spec.authors       = ['Tsukuru Tanimichi']
-  spec.email         = ['info+git@ttanimichi.com']
+  spec.email         = ['info@ttanimichi.com']
 
   spec.summary       = 'Formats a number into a Japanese Yen string (e.g., 12万3,456円).'
   spec.homepage      = 'https://github.com/ttanimichi/number_to_yen'

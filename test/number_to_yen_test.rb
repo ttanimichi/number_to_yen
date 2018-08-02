@@ -19,7 +19,7 @@ class NumberToYenTest < Minitest::Test
     assert { number_to_yen(1200000000) == '12億円' }
 
     assert { number_to_yen(12345678901234567890) == '1,234京5,678兆9,012億3,456万7,890円' }
-    assert { number_to_yen(1234567890123456789012) == '123,456京7,890兆1,234億5,678万9,012円' }
+    assert { number_to_yen(1234567890123456789012) == '12垓3,456京7,890兆1,234億5,678万9,012円' }
 
     assert { number_to_yen(0) == '0円' }
 
